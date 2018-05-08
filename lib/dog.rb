@@ -10,10 +10,13 @@ class Dog
   end
 
   def self.all
-    @@all << name
+    #@@all << name
   end
 
   def self.clear_all
+    if @@all >= 1
+      @@all.clear
+    end
   end
 
 end
