@@ -1,6 +1,6 @@
 class Dog
 
-  attr_accessor :name
+  attr_accessor :name, :all
 
   @@all = []
 
@@ -10,7 +10,7 @@ class Dog
   end
 
   def self.all
-    #@@all << name
+    @@all
   end
 
   def self.clear_all
