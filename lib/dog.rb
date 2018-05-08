@@ -14,7 +14,7 @@ class Dog
   end
 
   def self.clear_all
-    if @@all >= 1
+    if @@all.length >= 1
       @@all.clear
     end
   end
